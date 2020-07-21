@@ -1,0 +1,21 @@
+doctype html
+
+html
+  head
+    title Graphia Ltd
+    link href='/styles/page.css' rel='stylesheet'
+
+  body
+    header
+      h1 Graphia Ltd
+
+    main
+      == yield
+
+    footer
+      .vat
+        | VAT Number 329 5730 82
+
+      .copyright
+        | &copy; Graphia Ltd #{Time.now.year}
+
