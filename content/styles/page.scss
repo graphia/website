@@ -7,6 +7,12 @@ html, body {
 body {
   font-family: 'Sans serif';
   margin: auto 2rem;
+
+  aside > section > ul {
+    li + li {
+      margin-top: 0.6em;
+    }
+  }
 }
 
 footer {
