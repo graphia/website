@@ -1,14 +1,19 @@
 ---
-title: Home
+title: Graphia Ltd
 ---
 
 article
-  p
-    markdown:
-      Application, web and database development based in Manchester.
+  h1 == item[:title]
 
-      Please [get in touch](mailto:hello@graphia.co.uk) if you'd
-      like to collaborate.
+  p
+    ' Application, web and database development based in Manchester.
+
+  p
+    ' Please
+
+    ==<> link_to('get in touch', 'mailto:hello@graphia.co.uk')
+
+    ' if you'd like to collaborate.
 
 aside
   section.projects
