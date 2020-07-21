@@ -1,47 +1,18 @@
+$mobile: 700px;
+
 html, body {
-  height: 100%;
   margin: 0;
-  padding: 0;
 }
 
 body {
   font-family: 'Sans serif';
+  margin: auto 2rem;
+}
 
-  // layout
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-
-  article, section {
-    padding: 0 2em;
-  }
-
-  main {
-    flex: 1;
-
-    > aside {
-      display: flex;
-      justify-content: space-evenly;
-
-      flex-direction: column;
-      @media (min-width: 700px) {
-        flex-direction: row;
-      }
-
-      ul {
-        list-style-position: outside;
-        padding: 0;
-
-        li + li {
-          padding-top: 0.2em;
-        }
-      }
-    }
-  }
-
-  footer {
-    padding: 3em 0;
-    font-size: 0.8rem;
-    color: lighten(black, 30%);
-  }
+footer {
+  $grey: lighten(black, 30%);
+  border-top: 1px dashed $grey;
+  margin-top: 5em;
+  padding: 2em 0;
+  color: $grey;
 }
