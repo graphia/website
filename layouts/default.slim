@@ -8,6 +8,9 @@ html lang="en"
     meta name="viewport" content="width=device-width,initial-scale=1"
 
   body
+    header
+      h1 == link_to_unless_current('Graphia Ltd', '/')
+
     main
       == yield
 

@@ -1,16 +1,35 @@
-$mobile: 700px;
+$mobile: 768px;
 
 html, body {
   margin: 0;
+  max-width: 60em;
 }
 
 body {
   font-family: 'Sans serif';
   margin: auto 2rem;
 
-  aside > section > ul {
-    li + li {
-      margin-top: 0.6em;
+  aside {
+    display: flex;
+    justify-content: space-evenly;
+
+    @media (max-width: $mobile) {
+      flex-direction: column;
+
+      > section > ul {
+        list-style-position: outside;
+      }
+    }
+
+    > section {
+
+      > ul {
+        padding-left: 0;
+
+        li + li {
+          margin-top: 0.6em;
+        }
+      }
     }
   }
 }
