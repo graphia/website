@@ -1,0 +1,53 @@
+https://keybase.io/graphia
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.graphia.co.uk
+  * I am graphia (https://keybase.io/graphia) on keybase.
+  * I have a public key ASAuBWI3OAkpPTvpV8crQ_wGbzWYxuJy5M0LfYKCNOu0ZQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01202e0562373809293d3be957c72b43fc066f3598c6e272e4cd0b7d828234ebb4650a",
+      "host": "keybase.io",
+      "kid": "01202e0562373809293d3be957c72b43fc066f3598c6e272e4cd0b7d828234ebb4650a",
+      "uid": "578ccf685de4dfaf0d983eb843bb4119",
+      "username": "graphia"
+    },
+    "merkle_root": {
+      "ctime": 1601669566,
+      "hash": "10b53cb7b7bdefb72a9a45d1683cb229557d2ae2052aec68071b7fc95e210964d8f61d0404e321bb6089900b90db7f2bc22d2f21abff048cb165be8d071be277",
+      "hash_meta": "78214d9919a9e7e04096c4bcb7994feed3d2bca7047a72f82353d8599e744694",
+      "seqno": 17732094
+    },
+    "service": {
+      "entropy": "Kw6pibZWDZKCJwA6WOSw/nNz",
+      "hostname": "www.graphia.co.uk",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.1"
+  },
+  "ctime": 1601669587,
+  "expire_in": 504576000,
+  "prev": "2193c11d15cad1dce80673a55376372d3cc3474015a941723335152c9184f9df",
+  "seqno": 10,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgLgViNzgJKT076VfHK0P8Bm81mMbicuTNC32CgjTrtGUKp3BheWxvYWTESpcCCsQgIZPBHRXK0dzoBnOlU3Y3LTzDR0AVqUFyMzUVLJGE+d/EIJ+sbmEGVFE4vrAJD49jqQ1oXtxzbQ9W7APKR2QfR7FFAgHCo3NpZ8RAnmG/dbeJ6/Kj9E7nsotZjIIF87/NdOoK4rezArshd0ZgBsimxjpqrC/XjdOcgIAAPkoorCZrC2JvMMX3GwahDqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIPluri7X40IU7x9ely6aPs1tT/HoSi1doeaGfqdxbS2mo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/graphia
