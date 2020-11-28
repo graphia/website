@@ -6,29 +6,29 @@ html, body {
 }
 
 body {
-  font-family: 'Sans serif';
+  font-family: Sans-Serif;
   margin: auto 2rem;
 
   aside {
     display: flex;
-    justify-content: space-evenly;
-
-    @media (max-width: $mobile) {
-      flex-direction: column;
-
-      > section > ul {
-        list-style-position: outside;
-      }
-    }
+    flex-direction: column;
 
     > section {
-
       > ul {
         padding-left: 0;
+        list-style-position: outside;
 
         li + li {
           margin-top: 0.6em;
         }
+      }
+    }
+
+    @media (min-width: $mobile) {
+      flex-direction: row;
+
+      section + section {
+        margin-left: 3em;
       }
     }
   }
