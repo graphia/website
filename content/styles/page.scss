@@ -25,6 +25,14 @@ body {
     > ul {
       list-style-position: outside;
       padding-left: 0;
+
+      li {
+        margin: 1em 0;
+
+        > a {
+          padding: .4em 0;
+        }
+      }
     }
   }
 }
