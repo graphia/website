@@ -1,15 +1,32 @@
 $black: #000;
 $mobile: 768px;
+$link: #175286;
 
 html,
 body {
   margin: 0;
   max-width: 60em;
+
+  ::selection {
+    background: #ffdd00;
+  }
 }
 
 body {
   font-family: Sans-Serif;
   margin: auto 2rem;
+
+  a {
+    color: $link;
+
+    &:hover {
+      text-decoration-thickness: .2em;
+    }
+
+    &:visited {
+      color: $link
+    }
+  }
 
   aside {
     display: grid;
@@ -27,10 +44,10 @@ body {
       padding-left: 0;
 
       li {
-        margin: 1em 0;
+        margin: .4em 0;
 
         > a {
-          padding: .4em 0;
+          padding: .2em 0;
         }
       }
     }

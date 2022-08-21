@@ -10,5 +10,6 @@ gem "sassc"
 gem "slim"
 gem "kramdown"
 gem "rubypants"
+gem "webrick"
 
 group("nanoc") { gem "nanoc-live" }
