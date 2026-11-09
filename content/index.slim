@@ -4,23 +4,30 @@ subtitle: Peter Yates
 ---
 
 article
+  p Application, web, and database development based in Rochdale.
+
   markdown:
-    Application, web, and database development based in Rochdale.
+    Graphia's [form builder](https://govuk-form-builder.x-govuk.org) and [components](https://govuk-components.x-govuk.org) libraries are published under
+    [X·GOV.UK](https://x-govuk.org/). They are used to build more than 150 GOV.UK services across many departments, including:
 
-    Graphia's form builder and components libraries are published under [X·GOV.UK](https://x-govuk.org/). They are used to build more than 150 GOV.UK services across many departments, including:
-
-    * [Department for Education](https://www.gov.uk/government/organisations/department-for-education)
-    * [Ministry of Justice](https://www.gov.uk/government/organisations/ministry-of-justice)
-    * [Government Digital Service](https://www.gov.uk/government/organisations/government-digital-service)
-    * [Department for Environment, Food & Rural Affairs](https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs)
+  ul
+    li.education == link_to('Department for Education', 'https://www.gov.uk/government/organisations/department-for-education')
+    li.justice == link_to('Ministry of Justice', 'https://www.gov.uk/government/organisations/ministry-of-justice')
+    li.digital == link_to('Government Digital Service', 'https://www.gov.uk/government/organisations/government-digital-service')
+    li.tractor == link_to('Department for Environment, Food & Rural Affairs', 'https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs')
+    li.trade == link_to('Trade Tariff', 'https://www.gov.uk/trade-tariff')
     
-    They power:
+  p They power:
 
-    * [GOV.UK Forms](https://www.forms.service.gov.uk/)
-    * [MOJ Forms](https://moj-forms-editor.service.justice.gov.uk/)
+  ul
+    li.gov == link_to('GOV.UK Forms', 'https://www.forms.service.gov.uk/')
+    li.judge == link_to('MOJ Forms', 'https://moj-forms-editor.service.justice.gov.uk/')
+    li.france == link_to(%(Composants pour le Système de Design de lʼÉtat), 'https://github.com/betagouv/dsfr-view-components')
 
-
-    Please [get in touch](mailto:hello@graphia.co.uk) if you'd like to collaborate or hire me to work on your next project.
+  p
+    ' Please
+    ==<> link_to('get in touch', "mailto:hello@graphia.co.uk")
+    ' if you'd like to collaborate or hire me to work on your next project.
 
 nav
   section.strengths
@@ -31,6 +38,7 @@ nav
       li.design User-centric, accessible design
       li.pancakes Full stack web development
       li.linux Linux
+      li.postgres PostgreSQL
       li.data Data engineering
       li.geography Geographic information systems
 
@@ -40,7 +48,7 @@ nav
 
     ul
       li.code == link_to('GitHub', 'https://www.github.com/peteryates')
-      li.gov == link_to('X-GOVUK', 'https://x-govuk.org/')
+      li.x-gov == link_to('X-GOVUK', 'https://x-govuk.org/')
       li.gem == link_to('Rubygems', 'https://rubygems.org/profiles/peteryates')
 
   section.current-and-ongoing-projects
@@ -48,18 +56,18 @@ nav
       h2 Current and ongoing projects
 
     ul
-      li.rect == link_to('Register early career teachers', 'https://register-early-career-teachers.education.gov.uk/')
-      li.npq == link_to('Register for a national professional qualification', 'https://register-national-professional-qualifications.education.gov.uk/')
-      li.tte == link_to('Teacher training entitlement', 'https://teacher-training-entitlement.education.gov.uk/')
-      li.builder == link_to('GOV.UK form builder', 'https://govuk-form-builder.netlify.app')
-      li.component == link_to('GOV.UK components', 'https://govuk-components.x-govuk.org')
-      li.school == link_to(%(<abbr title="Get information about schools">GIAS</abbr> query toolkit), 'https://github.com/DFE-Digital/gias-query-tool')
+      li == link_to('Register early career teachers', 'https://register-early-career-teachers.education.gov.uk/')
+      li == link_to('Register for a national professional qualification', 'https://register-national-professional-qualifications.education.gov.uk/')
+      li == link_to('Teacher training entitlement', 'https://teacher-training-entitlement.education.gov.uk/')
+      li == link_to('GOV.UK form builder', 'https://govuk-form-builder.netlify.app')
+      li == link_to('GOV.UK components', 'https://govuk-components.x-govuk.org')
+      li == link_to(%(<abbr title="Get information about schools">GIAS</abbr> query toolkit), 'https://github.com/DFE-Digital/gias-query-tool')
   section.past-projects
     header
       h2 Past projects
 
     ul
-      li.teacher == link_to('Get Into Teaching', 'https://getintoteaching.education.gov.uk/')
-      li.experience == link_to('Get school experience', 'https://schoolexperience.education.gov.uk/')
-      li.prototype == link_to('Govspeak prototype toolkit', 'https://github.com/DFE-Digital/govspeak-protoype-kit')
-      li.draw == link_to('GOV.UK Excalidraw library', 'https://github.com/graphia/govuk-excalidraw-library')
+      li == link_to('Get Into Teaching', 'https://getintoteaching.education.gov.uk/')
+      li == link_to('Get school experience', 'https://schoolexperience.education.gov.uk/')
+      li == link_to('GOV.UK markdown prototype toolkit', 'https://github.com/DFE-Digital/govspeak-protoype-kit')
+      li == link_to('GOV.UK Excalidraw library', 'https://github.com/graphia/govuk-excalidraw-library')

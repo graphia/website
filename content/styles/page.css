@@ -14,39 +14,52 @@ header {
 }
 
 main {
+  p {
+    max-width: 50rem;
+  }
+
+  a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+      text-decoration-thickness: .2rem;
+    }
+  }
+
   ul {
     list-style-type: "👉️ "; /* fallback */
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
 
     li.builder    { list-style-type: "👷‍♂️ "; }
     li.code       { list-style-type: "👨‍💻 "; }
     li.component  { list-style-type: "⚙️ "; }
     li.data       { list-style-type: "🗃️ "; }
     li.design     { list-style-type: "💡 "; }
+    li.digital    { list-style-type: "💻 "; }
     li.draw       { list-style-type: "🖍️ "; }
+    li.education  { list-style-type: "🎓️ "; }
+    li.france     { list-style-type: "🇫🇷 "; }
     li.gem        { list-style-type: "💎 "; }
     li.geography  { list-style-type: "📍 "; }
     li.gov        { list-style-type: "🏛️ "; }
+    li.judge      { list-style-type: "👩‍⚖️ "; }
+    li.justice    { list-style-type: "⚖️ "; }
     li.linux      { list-style-type: "🐧 "; }
-    li.npq        { list-style-type: "📗 "; }
     li.pancakes   { list-style-type: "🥞 "; }
-    li.rect       { list-style-type: "📕 "; }
+    li.postgres   { list-style-type: "🐘 "; }
     li.school     { list-style-type: "🏫 "; }
     li.teacher    { list-style-type: "👩‍🏫 "; }
-    li.tte        { list-style-type: "📘 "; }
-    li.experience { list-style-type: "🌱 "; }
-    li.prototype  { list-style-type: "📐 "; }
+    li.tractor    { list-style-type: "🚜 "; }
+    li.trade      { list-style-type: "🤝 "; }
+    li.x-gov      { list-style-type: "🩵 "; }
   }
 
   nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
     @media (max-width: 700px) { grid-template-columns: 1fr; }
-
-    a {
-      text-decoration: none;
-      &:hover { text-decoration: underline; }
-    }
-
   }
 }
 
