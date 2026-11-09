@@ -15,15 +15,6 @@ compile '/**/*.slim' do
   write item.identifier.without_ext + '/index.html'
 end
 
-# CSS (SCSS)
-ignore '/**/_*.scss'
-
-compile '/**/*.scss' do
-  filter :sassc, syntax: :scss, style: :compressed, load_paths: ['content/css/', 'content/css/govuk_publishing_components']
-  snapshot :css
-  write item.identifier.without_ext + '.css'
-end
-
 # Everything else
 compile '/**/*' do
   write item.identifier.to_s

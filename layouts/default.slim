@@ -1,18 +1,23 @@
 doctype html
 
-html lang="en"
+html lang="en-GB"
   head
     title Graphia Ltd
     link href="/styles/page.css" rel="stylesheet"
+    link rel="icon" href="data:,"
     meta charset="utf-8"
     meta name="viewport" content="width=device-width,initial-scale=1"
     meta name="title" content="Graphia Ltd"
-    meta name="description" content="Graphia Ltd specialises in data engineering and user-centred design and development"
+    meta name="description" content="Graphia Ltd specialises in data engineering, user-centred design and development"
     meta name="google-site-verification" content="lBiFzCkiGKr6d9cG8Hcsf2KDajxdGpLWFvxJ3z5uWko"
 
   body
     header
-      h1 == link_to_unless_current('Graphia Ltd', '/')
+      h1
+        ' Graphia Ltd
+
+        div.subtitle
+          = item[:subtitle]
 
     main
       == yield

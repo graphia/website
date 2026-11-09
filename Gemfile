@@ -4,12 +4,13 @@ source "https://rubygems.org"
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
-gem "nanoc"
 gem "adsf"
-gem "sassc"
-gem "slim"
+gem "base64"
 gem "kramdown"
+gem "logger"
+gem "nanoc"
 gem "rubypants"
+gem "slim"
 gem "webrick"
 
 group("nanoc") { gem "nanoc-live" }
